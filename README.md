@@ -6,4 +6,5 @@ Get snapshot IDs from Azure Portal or powershell commands
 
 `Get-AzureRmSnapshot -ResourceGroupName “your_resource_group” -SnapshotName “Snap-Name” | grep “^Id”`
 
-This ID are use on tag **source_resource_id**
+This Snapshot ID is used in tag **source_resource_id** of this script
+
