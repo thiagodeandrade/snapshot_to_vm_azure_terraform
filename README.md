@@ -5,4 +5,5 @@ This script create a new Microsoft Azure Virtual Machine from snapshot
 Get snapshot IDs from Azure Portal or powershell commands
 
 `Get-AzureRmSnapshot -ResourceGroupName “your_resource_group” -SnapshotName “Snap-Name” | grep “^Id”`
+
 This ID are use on tag **source_resource_id**
